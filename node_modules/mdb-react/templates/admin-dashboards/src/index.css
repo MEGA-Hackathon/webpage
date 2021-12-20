@@ -1,0 +1,41 @@
+@media (min-width: 1400px) {
+  main,
+  header,
+  #main-navbar,
+  #message-input {
+    padding-left: 240px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .inner-content {
+    padding-left: 240px;
+  }
+}
+
+ul.navbar-nav.w-100 {
+  width: auto !important;
+}
+
+.table > thead > tr > th {
+  border-bottom-width: 2px;
+}
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: inherit;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+main {
+  margin-top: 58px;
+}
+
+.file-upload-wrapper {
+  max-width: 300px !important;
+}
+
+section.inner-sidenav > div {
+  z-index: 999 !important;
+}
