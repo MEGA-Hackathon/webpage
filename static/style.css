@@ -1,0 +1,109 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-color: #ffffff;
+        --text-color: #000000;
+        --accent-color: rgb(149, 78, 255);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1b1b1b;
+        --text-color: #ffffff;
+        --accent-color: rgb(149, 78, 255);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: system-ui;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 98vw;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    overflow: hidden;
+    background-color: var(--background-color);
+    padding-bottom: 4px;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li > a > img {
+    display: block;
+    padding: 0px 16px;
+    height: calc(1rem + 32px);
+}
+
+.navbar li > a:not(.logo) {
+    display: none;
+}
+
+.content {
+    padding-top: 75px;
+}
+
+.anchor {
+    position: relative;
+    top: -90px;
+}
+
+.footer {
+    padding-top: 25px;
+}
+
+@media only screen
+    and (min-width: 429px) {
+    body {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    } 
+
+    .navbar {
+        width: 80vw;
+    }
+
+    .navbar li > a:not(.logo) {
+        display: block;
+        color: var(--text-color);
+        text-align: center;
+        padding: calc(32px - 1rem) 16px;
+        text-decoration: none;
+    }
+    
+    .navbar li > a:not(.logo):hover {
+        color: var(--accent-color);
+    }
+}
+
+@media only screen
+    and (min-width: 768px) {
+    body {
+        margin-left: 25vw;
+        margin-right: 25vw;
+    } 
+
+    .navbar {
+        width: 50vw;
+    }
+}
