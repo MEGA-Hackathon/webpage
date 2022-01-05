@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Yuxuan Tian",
+        "school": "Rutgers Prep",
+        "role": "Organization",
+        "bio": "Hi, I am the lead organizer of NJ MEGA Hack 2022. Glad to meet you guys and good luck!",
+        "image": "./static/ytian.jpg"
+    },
+    {
+        "name": "Noah Trupin",
+        "school": "The Lawrenceville School",
+        "role": "Tech",
+        "bio": "I'm a highschool student with a passion for programming and talking about programming. I built Mega Hack's original website.",
+        "image": "./static/ntrupin.png"
+    },
+    {
+        "name": "Jamie Nicholson",
+        "school": "The Lawrenceville School",
+        "role": "Organization",
+        "bio": "Hi! I'm Jamie Nicholson, and I'm a senior at the Lawrenceville School. I am currently the president of our Programming Club, and am so excited to help organize this Hackathon!",
+        "image": "./static/jnicholson.JPG"
+    },
+    {
+        "name": "Promit Mukhopadhyay",
+        "school": "Rutgers Prep",
+        "role": "Graphic Design",
+        "bio": "I animate posters and other designs created by our artists.",
+        "image": "./static/transparent.png"
+    },
+    {
+        "name": "Agni Rajinikanth",
+        "school": "Rutgers Prep",
+        "role": "Organization",
+        "bio": "Agni is a Junior from New Jersey. He is experienced and skilled at Economics, Business, Machine Learning and Engineering.",
+        "image": "./static/arajinikanth.jpg"
+    },
+    {
+        "name": "Ishan Parikh",
+        "school": "Rutgers Prep",
+        "role": "Graphic Design",
+        "bio": "Hello, I am ishan and I help with the marketing and graphic designs for Mega Hack 2022! I am 14 and attend Rutgers Prep.",
+        "image": "./static/transparent.png"
+    },
+    {
+        "name": "Adit Trivedi",
+        "school": "Rutgers Prep",
+        "role": "Marketing",
+        "bio": "I make email templates that the heads check over before seding the email to other ngos and partners.",
+        "image": "./static/transparent.png"
+    }
+]

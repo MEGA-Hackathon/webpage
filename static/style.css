@@ -30,7 +30,7 @@ body {
 
 .navbar {
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 98vw;
     border-bottom: 1px solid var(--text-color);
 }
@@ -61,6 +61,29 @@ body {
 
 .content {
     padding-top: 75px;
+}
+
+ul.grid {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+ul.grid li > img {
+    max-height: 200px;
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+ul.grid li > p {
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
 }
 
 .anchor {
