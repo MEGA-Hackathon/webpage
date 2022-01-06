@@ -21,31 +21,28 @@
         "image": "./static/jnicholson.JPG"
     },
     {
-        "name": "Promit Mukhopadhyay",
-        "school": "Rutgers Prep",
-        "role": "Graphic Design",
-        "bio": "I animate posters and other designs created by our artists.",
-        "image": "./static/transparent.png"
-    },
-    {
         "name": "Agni Rajinikanth",
         "school": "Rutgers Prep",
         "role": "Organization",
-        "bio": "Agni is a Junior from New Jersey. He is experienced and skilled at Economics, Business, Machine Learning and Engineering.",
+        "bio": "Agni is a junior who is interested in Economics, Business, and Engineering.  He is also the leader of the marketing and finance team.",
         "image": "./static/arajinikanth.jpg"
+    },
+    {
+        "name": "Promit Mukhopadhyay",
+        "school": "Rutgers Prep",
+        "role": "Graphic Design",
+        "bio": "I animate posters and other designs created by our artists."
     },
     {
         "name": "Ishan Parikh",
         "school": "Rutgers Prep",
         "role": "Graphic Design",
-        "bio": "Hello, I am ishan and I help with the marketing and graphic designs for Mega Hack 2022! I am 14 and attend Rutgers Prep.",
-        "image": "./static/transparent.png"
+        "bio": "Hello, I am ishan and I help with the marketing and graphic designs for Mega Hack 2022! I am 14 and attend Rutgers Prep."
     },
     {
         "name": "Adit Trivedi",
         "school": "Rutgers Prep",
         "role": "Marketing",
-        "bio": "I make email templates that the heads check over before seding the email to other ngos and partners.",
-        "image": "./static/transparent.png"
+        "bio": "I make email templates that the heads check over before seding the email to other ngos and partners."
     }
 ]
