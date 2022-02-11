@@ -3,14 +3,14 @@
         "name": "Yuxuan Tian",
         "school": "Rutgers Prep",
         "role": "Organization",
-        "bio": "Hi, I am the lead organizer of NJ MEGA Hack 2022. Glad to meet you guys and good luck!",
-        "image": "./static/ytian.jpg"
+        "bio": "Hey guys! I am the lead organizer of the MEGA Hack 2022. Can't wait to see all the great projects that will help achieve the UN 17 goals.",
+        "image": "./static/ytian.jpeg"
     },
     {
         "name": "Noah Trupin",
         "school": "The Lawrenceville School",
         "role": "Tech",
-        "bio": "I'm a highschool student with a passion for programming and talking about programming. I built Mega Hack's original website.",
+        "bio": "I'm Noah, a highschool student with a passion for programming and talking about programming. I lead MEGAHack's tech team.",
         "image": "./static/ntrupin.png"
     },
     {
@@ -18,14 +18,49 @@
         "school": "The Lawrenceville School",
         "role": "Organization",
         "bio": "Hi! I'm Jamie Nicholson, and I'm a senior at the Lawrenceville School. I am currently the president of our Programming Club, and am so excited to help organize this Hackathon!",
-        "image": "./static/jnicholson.JPG"
+        "image": "./static/jnicholson.jpeg"
     },
     {
         "name": "Agni Rajinikanth",
         "school": "Rutgers Prep",
         "role": "Organization",
-        "bio": "Agni is a junior who is interested in Economics, Business, and Engineering.  He is also the leader of the marketing and finance team.",
-        "image": "./static/arajinikanth.jpg"
+        "bio": "Hi, I'm the Co-Founder and lead organizer at the Mega Hackthon League. I am looking forward to our first hackathon event and seeing all our projects.",
+        "image": "./static/arajinikanth.jpeg"
+    },
+    {
+        "name": "Jianglu Ping",
+        "school": "Northfield Mount Hermon School ",
+        "role": "Organization & Finance",
+        "bio": "I'm a junior at Northfield Mount Hermon School, and I'm excited about using my social entrepreneurship skills to help organize NJ MEGA Hack 2022. ",
+        "image": "./static/jping.jpeg"
+    },
+    {
+        "name": "Tianxiang Wei",
+        "school": "Prince of Wales Secondary School",
+        "role": "Organization",
+        "bio": "Hi, I am a high school student in Canada and aim to connect students in Canada with the exciting MEGA Hackathon events!",
+        "image": "./static/wtian.png"
+    },
+    {
+        "name": "Junyi Wang",
+        "school": "Rutgers Preparatory School",
+        "role": "Graphic Design",
+        "bio": "I'm Junyi and in charge of designing the posters.",
+        "image": "./static/jwang.jpeg"
+    },
+    {
+        "name": "Urmi Sumant",
+        "school": "Rutgers Preparatory School",
+        "role": "Finance",
+        "bio": "Hello! My name is Urmi Sumant and I'm a high school student in California. I'm really excited to utilize my financial and entrepreneurial skillset to organize MEGA Hack 2022!",
+        "image": "./static/urmi.png"
+    },
+    {
+        "name": "Sunny Park",
+        "school": "The Hun School of Princeton",
+        "role": "Organization",
+        "bio": "Hi, I am Sunny Park, a senior from the Hun School of Princeton, leading computer science club. I am excited to help organize MEGA Hackathon with my passion in computer science!",
+        "image": "./static/spark.jpg"
     },
     {
         "name": "Promit Mukhopadhyay",
@@ -37,12 +72,30 @@
         "name": "Ishan Parikh",
         "school": "Rutgers Prep",
         "role": "Graphic Design",
-        "bio": "Hello, I am ishan and I help with the marketing and graphic designs for Mega Hack 2022! I am 14 and attend Rutgers Prep."
+        "bio": "Hello, I am ishan and I help with the marketing and graphic designs for Mega Hack 2022!"
     },
     {
         "name": "Adit Trivedi",
         "school": "Rutgers Prep",
         "role": "Marketing",
         "bio": "I make email templates that the heads check over before seding the email to other ngos and partners."
+    },
+    {
+        "name": "Skywalker Li",
+        "school": "Newark Academy",
+        "role": "Organization",
+        "bio": "Hi! I'm Skywalker Li, and I'm a student at Newark Academy. Excited to get to know you all!"
+    },
+    {
+        "name": "Max Xiong",
+        "school": "Rutgers Prep",
+        "role": "Graphic Design",
+        "bio": "Hey! I'm Max and I mainly help with Graphics Design and Marketing. Looking forward to working with everyone!"
+    },
+    {
+        "name": "Jason Xu",
+        "school": "Rutgers Prep",
+        "role": "Organization",
+        "bio": "Hi, I'm Jason and I am so excited to help Daniel and Agni organize this hackathon! Best of luck to those participating."
     }
 ]

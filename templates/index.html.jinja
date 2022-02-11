@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preload" href="./static/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="./static/style.css" /></noscript>
+        <title>Mega Hackathon</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    </head>
+    <body>
+        <div class="grid grid--full large-grid--fit sticky-grid">
+            <div class="sticky-cell grid-cell">
+                <h1 class="sticky-title">
+                    <span>MEGA</span>
+                    <span>Hackathon</span>
+                    <span>2022</span>
+                </h1>
+                <a class="sticky-signup" href="/signup/suform.html">Register</a>
+            </div>
+            <div class="grid-cell"></div>
+        </div>
+        <div class="grid grid--full large-grid--fit">
+            <div class="grid-cell"></div>
+            <div class="grid-cell page-cell">
+                <div>
+                    <h1>About</h1>
+                    <p>We are a collective of east coast-based high school students interested in computer science. Competition provides a core aspect of computer science and programming at the high school level, providing students with an opportunity to connect with like-minded individuals, gain knowledge and experience relative to the subject, and test their ability in a low-stakes environment. However, during our search for hackathons to compete in, we found our selection quite underwhelming. Therefore, we set out to create a hackathon catering to and hosted by high school students.</p>
+                    <p>The MEGA hackathon is a seasonal hackathon focusing on the United Nation's seventeen goals, aiming to improve human development by providing access to health care and education while protecting the environment. We believe that by infusing computer science with these goals, we can raise awareness for global issues while providing a stimulating experience for computer science students.</p>
+                </div>
+                <div>
+                    <h1>Sponsors</h1>
+                    <p>MEGAHack is possible thanks to our awesome sponsors.</p>
+                    <div class="grid grid--full large-grid--fit">
+                        <div class="grid-cell">
+                            <img src="./static/hackclub.png" style="width: 150px;" />
+                        </div>
+                        <div class="grid-cell">
+                            <img src="./static/rosenfeld.png" style="width: 150px;" />
+                        </div>
+                        <div class="grid-cell">
+                            <img src="./static/taskade.png" style="width: 150px;" />
+                        </div>
+                        <div class="grid-cell">
+                            <img src="./static/inspiritai.png" style="width: 150px;" />
+                        </div>
+                        <div class="grid-cell">
+                            <img src="./static/dotxyz.png" style="width: 150px;" />
+                        </div>
+                        <div class="grid-cell">
+                            <img src="./static/voiceflow.png" style="width: 150px;" />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1>Meet the Team</h1>
+                    <p>MEGAHack's team consists of a number of students from a group of students specializing in computer science, finance, digital design, and other relevant disciplines.</p>
+                    <ul class="bio-grid">
+                        {% for person in team %}
+                            {% if "image" in person %}
+                            <li>
+                                <img src="{{ person['image'] }}" />
+                                <p><b>{{ person["name"] }}</b> - {{ person["role"] }}</p>
+                                <p>{{ person["bio"] }}</p>
+                            </li>
+                            {% else %}
+                            <li>
+                                <p><b>{{ person["name"] }}</b> - {{ person["role"] }}</p>
+                                <p>{{ person["bio"] }}</p>
+                            </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div>
+                    <h1>FAQ</h1>
+                    <ul>
+                        <li>
+                            <h3>What is a hackathon?</h3>
+                            <p>A hackathon is an event where groups of programmers come together to solve real-world problems by creating projects. Our theme for this year is AI for good.</p>
+                        </li>
+                        <li>
+                            <h3>Who can participate?</h3>
+                            <p>Anyone! Regardless of coding abilities, geography, or age, anyone can participate.</p>
+                        </li>
+                        <li>
+                            <h3>Why should I participate?</h3>
+                            <p>Hackathons are opportunities to network with people, learn new skills, and potentially benefit communities. Plus, there are prizes!</p>
+                        </li>
+                        <li>
+                            <h3>When and where is MEGAHack2022?</h3>
+                            <p>The event will be held in a hybrid format on April 3 and 4. You can participate virtually around the world. The in person location is TBD.</p>
+                        </li>
+                        <li>
+                            <h3>What are United Nation's 17 goals?</h3>
+                            <p>The Sustainable Development Goals are the blueprint to achieve a better and more sustainable future for all. They address the global challenges we face, including poverty, inequality, climate change, environmental degradation, peace and justice. Learn more and take action. <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">More Info</a></p>
+                        </li>
+                        <li>
+                            <h3>What if we want to partner/sponsor MEGAHack2022 or MEGA Hackathon Leauge?</h3>
+                            <p>We appreciate any kinds of donations and sponsorships. It would be great if you can schedule a meeting with us to discuss further regarding what this would entail. Sponsor benefits will be provided.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <center>&copy; MEGAHack 2022</center>
+        <script src="./static/script.js"></script>
+    </body>
+</html>
