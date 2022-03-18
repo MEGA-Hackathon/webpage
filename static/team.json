@@ -89,7 +89,7 @@
     {
         "name": "Max Xiong",
         "school": "Rutgers Prep",
-        "role": "Graphic Design",
+        "role": "Organization/Marketing/Graphic Design",
         "bio": "Hey! I'm Max and I mainly help with Graphics Design and Marketing. Looking forward to working with everyone!"
     },
     {
@@ -97,5 +97,11 @@
         "school": "Rutgers Prep",
         "role": "Organization",
         "bio": "Hi, I'm Jason and I am so excited to help Daniel and Agni organize this hackathon! Best of luck to those participating."
+    },
+    {
+        "name": "Daniel Achacon",
+        "school": "Rutgers Prep",
+        "role": "Marketing/Finance",
+        "bio": "Hi, I am Daniel Achacon and I am a sophomore at Rutgers Preparatory School. I look forward to working with you all and best of luck to all who participate!"
     }
 ]
