@@ -1,3 +1,2 @@
-# MEGA-Hackathon Website
+# MEGA-Hackathon League
 
-Description pending.
