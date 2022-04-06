@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.50c5834d.css",
-    "main.js": "/static/js/main.f9f9de6e.js",
+    "main.js": "/static/js/main.b530d8ff.js",
     "static/css/376.b29e760c.chunk.css": "/static/css/376.b29e760c.chunk.css",
     "static/js/376.390479f3.chunk.js": "/static/js/376.390479f3.chunk.js",
     "static/css/479.2dda35bf.chunk.css": "/static/css/479.2dda35bf.chunk.css",
@@ -47,7 +47,7 @@
     "static/media/chakra-petch-vietnamese-400-normal.woff2": "/static/media/chakra-petch-vietnamese-400-normal.0dc81d529f8224536509.woff2",
     "index.html": "/index.html",
     "main.50c5834d.css.map": "/static/css/main.50c5834d.css.map",
-    "main.f9f9de6e.js.map": "/static/js/main.f9f9de6e.js.map",
+    "main.b530d8ff.js.map": "/static/js/main.b530d8ff.js.map",
     "376.b29e760c.chunk.css.map": "/static/css/376.b29e760c.chunk.css.map",
     "376.390479f3.chunk.js.map": "/static/js/376.390479f3.chunk.js.map",
     "479.2dda35bf.chunk.css.map": "/static/css/479.2dda35bf.chunk.css.map",
@@ -58,6 +58,6 @@
   },
   "entrypoints": [
     "static/css/main.50c5834d.css",
-    "static/js/main.f9f9de6e.js"
+    "static/js/main.b530d8ff.js"
   ]
 }
