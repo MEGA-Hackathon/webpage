@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webpage/static/css/main.6dad1e06.css",
-    "main.js": "/webpage/static/js/main.81a927c4.js",
+    "main.js": "/webpage/static/js/main.081d8956.js",
     "static/css/376.b29e760c.chunk.css": "/webpage/static/css/376.b29e760c.chunk.css",
     "static/js/376.31d12e06.chunk.js": "/webpage/static/js/376.31d12e06.chunk.js",
     "static/css/479.2dda35bf.chunk.css": "/webpage/static/css/479.2dda35bf.chunk.css",
@@ -47,7 +47,7 @@
     "static/media/chakra-petch-vietnamese-400-normal.woff2": "/webpage/static/media/chakra-petch-vietnamese-400-normal.0dc81d529f8224536509.woff2",
     "index.html": "/webpage/index.html",
     "main.6dad1e06.css.map": "/webpage/static/css/main.6dad1e06.css.map",
-    "main.81a927c4.js.map": "/webpage/static/js/main.81a927c4.js.map",
+    "main.081d8956.js.map": "/webpage/static/js/main.081d8956.js.map",
     "376.b29e760c.chunk.css.map": "/webpage/static/css/376.b29e760c.chunk.css.map",
     "376.31d12e06.chunk.js.map": "/webpage/static/js/376.31d12e06.chunk.js.map",
     "479.2dda35bf.chunk.css.map": "/webpage/static/css/479.2dda35bf.chunk.css.map",
@@ -58,6 +58,6 @@
   },
   "entrypoints": [
     "static/css/main.6dad1e06.css",
-    "static/js/main.81a927c4.js"
+    "static/js/main.081d8956.js"
   ]
 }
