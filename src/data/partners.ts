@@ -45,7 +45,7 @@ export const Partners: Array<Props> = [
 	{
 		image: require("assets/partners/madforstem.png"),
 		title: "Mad for STEM",
-		description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+		description: "Email us to add your description.",
 	},
 	{
 		image: require("assets/partners/global-ngo.png"),
@@ -56,7 +56,7 @@ export const Partners: Array<Props> = [
 	{
 		image: require("assets/partners/shawls-shelters.png"),
 		title: "Shawls & Shelters",
-		description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+		description: "Email us to add your description.",
 	},
 	{
 		image: require("assets/partners/innovation.png"),
@@ -66,16 +66,16 @@ export const Partners: Array<Props> = [
 	{
 		image: require("assets/partners/resilience.png"),
 		title: "Resilience .inc",
-		description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+		description: "Email us to add your description.",
 	},
 	{
 		image: require("assets/partners/education.png"),
 		title: "Education for All",
-		description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+		description: "Email us to add your description.",
 	},
 	{
 		image: require("assets/partners/PoW.png"),
 		title: "Prince of Wales",
-		description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+		description: "Email us to add your description.",
 	},
 ];

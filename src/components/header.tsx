@@ -43,6 +43,11 @@ const Header: React.FC<HeaderProps> = (props) => {
 							</NavLink>
 						</MDBNavbarItem>
 						<MDBNavbarItem>
+							<NavLink to="/">
+								<MDBNavbarLink href="#previous-season">Last Season Results</MDBNavbarLink>
+							</NavLink>
+						</MDBNavbarItem>
+						<MDBNavbarItem>
 							<NavLink to={props.focus === "About" ? "#" : "/about"}>
 								<MDBNavbarLink active={props.focus === "About"} href="#">
 									About
