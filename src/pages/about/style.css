@@ -1,0 +1,19 @@
+.accordion-item {
+    background-color: rgb(20, 20, 20) !important;
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+.accordion-button {
+    color: rgb(200, 200, 200) !important;
+    background-color: rgb(25, 25, 25) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(200, 100, 255) !important;
+}
+
+.list-group-item {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(20, 20, 20) !important;
+    border-color: rgba(255, 255, 255, 0.05) !important;
+}

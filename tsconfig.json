@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		// required
+		"allowSyntheticDefaultImports": true,
+		"downlevelIteration": true,
+		"jsx": "react",
+		"jsxFactory": "React.createElement",
+		"jsxFragmentFactory": "React.Fragment",
+		"module": "commonjs",
+		"moduleResolution": "Node",
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"resolveJsonModule": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"target": "ESNext",
+		"typeRoots": ["node_modules/@types", "types"],
+
+		// configurable
+		"rootDir": "src",
+		"outDir": "dist",
+		"baseUrl": "src",
+		"incremental": true,
+		"tsBuildInfoFile": "tsconfig.tsbuildinfo"
+	}
+}
